@@ -15,10 +15,6 @@ import java.util.List;
 public class StatisticModel {
 
 
-    // INSTANCE;
-
-
-
 
     private  List<TransactionDTO> transactionDTOList = new ArrayList<TransactionDTO>();
 

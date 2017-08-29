@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -21,11 +20,11 @@ import java.util.logging.Logger;
  */
 
 @RestController
-public class StatisticController {
+public class StatisticsController {
 
 
 
-    private static Logger logger = Logger.getLogger(StatisticController.class.getName());
+    private static Logger logger = Logger.getLogger(StatisticsController.class.getName());
 
 
     @Autowired

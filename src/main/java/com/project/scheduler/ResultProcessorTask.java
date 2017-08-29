@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * Created by abdullah.alnoman on 29.08.17.
  */
 @Component
-public class ResultProcessorJob {
+public class ResultProcessorTask {
 
     @Autowired
     TransactionService service;
